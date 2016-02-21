@@ -10,4 +10,4 @@ var data = [
   {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
 ];
 
-ReactDOM.render(<CommentBox data={data}/>, app);
+ReactDOM.render(<CommentBox data={data} url="data/comments"/>, app);
